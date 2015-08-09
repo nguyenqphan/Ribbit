@@ -23,6 +23,7 @@ public class LoginActivity extends AppCompatActivity {
     protected EditText mUsername;
     protected EditText mPassword;
     protected Button mLoginButton;
+    protected Button mForgetPasswordButton;
 
     protected TextView mSignUpTextView;
 
@@ -47,6 +48,16 @@ public class LoginActivity extends AppCompatActivity {
 
         mUsername = (EditText)findViewById(R.id.usernameField);
         mPassword = (EditText)findViewById(R.id.passwordField);
+        mForgetPasswordButton = (Button)findViewById(R.id.forgetPasswordButton);
+        mForgetPasswordButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this, ForgetPassword.class);
+                startActivity(intent);
+            }
+        });
+
+
         mLoginButton = (Button)findViewById(R.id.loginButton);
         mLoginButton.setOnClickListener(new View.OnClickListener(){
             @Override

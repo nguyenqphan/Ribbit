@@ -21,4 +21,9 @@
     <string name="login_error_message">Please make sure you enter username and password</string>
     <string name="login_error_title">Error!</string>
     <string name="menu_logout_label">Logout</string>
+    <string name="title_activity_forget_password">ForgetPassword</string>
+    <string name="reset_password_message">Please Enter Your Email To Reset The Password</string>
+    <string name="reset_password_button">Reset Password</string>
+    <string name="forget_password_button">Forgot Password</string>
+    <string name="invalid_email">Invalid Email</string>
 </resources>
