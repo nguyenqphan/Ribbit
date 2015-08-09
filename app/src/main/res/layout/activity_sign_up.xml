@@ -11,7 +11,6 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Username"
         android:id="@+id/usernameField"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -34,7 +33,7 @@
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
-        android:id="@+id/editText2"
+        android:id="@+id/emailField"
         android:layout_below="@+id/passwordField"
         android:layout_alignRight="@+id/passwordField"
         android:layout_alignEnd="@+id/passwordField"
@@ -45,6 +44,6 @@
         android:layout_height="wrap_content"
         android:text="@string/sign_up_button_label"
         android:id="@+id/signupButton"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/emailField"
         android:layout_centerHorizontal="true"/>
 </RelativeLayout>

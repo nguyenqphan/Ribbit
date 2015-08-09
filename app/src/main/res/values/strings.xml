@@ -16,5 +16,9 @@
     <string name="title_activity_sign_up">SignUpActivity</string>
     <string name="email_hint">Email</string>
     <string name="sign_up_button_label">Sign Up</string>
-
+    <string name="signup_error_message">Please make sure you enter username, password and email</string>
+    <string name="signup_error_title">Error!</string>
+    <string name="login_error_message">Please make sure you enter username and password</string>
+    <string name="login_error_title">Error!</string>
+    <string name="menu_logout_label">Logout</string>
 </resources>
