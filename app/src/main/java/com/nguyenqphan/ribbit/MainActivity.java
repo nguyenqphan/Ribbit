@@ -138,6 +138,7 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
     @Override
     public void onTabSelected(ActionBar.Tab tab, FragmentTransaction ft) {
 
+        mViewPager.setCurrentItem(tab.getPosition());
     }
 
     @Override
