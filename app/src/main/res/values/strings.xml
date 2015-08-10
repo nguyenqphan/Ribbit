@@ -24,5 +24,6 @@
     <string name="forget_password_button">Forgot Password</string>
     <string name="invalid_email">Invalid Email</string>
     <string name="email_found">Check Your Enter Email To Reset The Password</string>
+    <string name="empty_friends_label">Add friends to start</string>
     <string name="empty_inbox_label">No new messages!</string>
 </resources>
